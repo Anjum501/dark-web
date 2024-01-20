@@ -1,0 +1,195 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    
+}
+.container{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+
+}
+.navigation{
+    width: 25rem;
+    
+}
+.logo{
+    margin-left: 5px;
+}
+a{
+    text-decoration: none;
+    margin-left: 20px;
+    color:black;
+    
+}
+.btn{
+    width: 80px;
+    height: 35px;
+    margin-left: 73px;
+    background-color: rgb(10, 167, 245);
+    border: 0;
+    padding: 10px;
+    color: white;
+}
+.make-up{
+    color:rgb(6, 167, 248) ;
+}
+.main-1{
+    width: 100%;
+    height: 2000px;
+ 
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+   
+    
+}
+.images{
+    width: 50%;
+    height: 500px;
+}
+
+.second-part{
+	width: 100%;
+	height: 550px;
+    
+}
+.textline{
+	z-index: 5px;
+	margin-top: 355px;
+	position: absolute;
+	font-size: 30px;
+    font-size: 3rem;
+   
+    
+}
+.textline-1{
+    position: absolute;
+    margin-left: 40px;
+    font-size: 3rem;
+    margin-top: 300px;
+}
+.font-photo{
+	margin-left: 133px;
+	height: 480px;
+	width: 817px;
+    margin-top: 10px;
+}
+   
+.my-about{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.self-part{
+    width: 50%;
+    height: 500px;
+   
+    display: flex;
+   
+}
+.mine{
+    width: 580px;
+}
+.about-head{
+    margin-top: 80px;
+    margin-left: 30px;
+    font-size: 1.5rem;
+}
+.text-head{
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.about-text{
+    width: 380px;
+    font-size: 14px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.btn-2{
+    width: 80px;
+    height: 35px;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-color: rgb(10, 167, 245);
+    border: 0;
+    padding: 10px;
+    color: white;
+}
+.icons{
+    width: 200px;
+    height: 40px;
+   
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.foot-apps{
+    margin-left: 15px;
+    width: 20px;
+
+
+}
+.four-photo{
+    width: 100%;
+    height: 600px;
+    background-color: aquamarine;
+    justify-content: center;
+    display: flex;
+}
+.four-con{
+    width: 50%;
+    height: 590px;
+    background-color: cornflowerblue;
+    display: flex;
+}
+.four-text{
+    width: 300px;
+}
+.photos-4{
+   width: 450px;
+   
+   margin-left: 200px;
+}
+.img-1{
+    position: absolute;
+    margin-left: 250px;
+    width: 200px;
+    z-index: 1;
+    margin-top: 40px;
+}
+.img-2{
+    position: absolute;
+    width: 200px;
+   
+    margin-top: 250px;
+    z-index: 6;
+}
+.img-3{
+    position: absolute;
+    width: 200px;
+   
+    z-index: 2;
+    margin-left: 60px;
+}
+.img-4{
+    width: 200px;
+    margin-top: 300px;
+    margin-left: 180px;
+    position: absolute;
+    z-index: 4;
+}
+
+
