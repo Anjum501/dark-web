@@ -47,6 +47,7 @@ a{
 .main-1{
     width: 100%;
     height: 2000px;
+  
  
 }
 .main{
@@ -87,6 +88,7 @@ a{
 	height: 480px;
 	width: 817px;
     margin-top: 10px;
+    border-bottom: 1px solid ghostwhite;
 }
    
 .my-about{
@@ -103,6 +105,8 @@ a{
 }
 .mine{
     width: 580px;
+    border-bottom: 1px solid ghostwhite;
+    border-left: 0.5px solid ghostwhite;
 }
 .about-head{
     margin-top: 80px;
@@ -112,12 +116,14 @@ a{
 .text-head{
     margin-top: 20px;
     margin-left: 35px;
+    opacity: 0.7;
 }
 .about-text{
     width: 380px;
     font-size: 14px;
     margin-left: 35px;
     margin-top: 20px;
+    opacity:0.8;
 }
 .btn-2{
     width: 80px;
@@ -144,43 +150,68 @@ a{
 }
 .four-photo{
     width: 100%;
-    height: 600px;
-    background-color: aquamarine;
+    height: 650px;
     justify-content: center;
     display: flex;
 }
 .four-con{
     width: 50%;
     height: 590px;
-    background-color: cornflowerblue;
     display: flex;
 }
 .four-text{
-    width: 300px;
+    width: 380px;
+    height: 450px;
+    margin-top: 70px;
+    
 }
+.play{
+    font-size: 4rem;
+    margin: 20px 40px;
+}
+.both{
+    margin-left: 40px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+.cv{
+    width: 100px;
+    height: 35px;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-color: rgb(10, 167, 245);
+    border: 0;
+    padding: 10px;
+    color: white;
+}
+
+
 .photos-4{
-   width: 450px;
-   
-   margin-left: 200px;
+   width: 400px;
+   margin-left: 120px;
 }
+
+
 .img-1{
     position: absolute;
     margin-left: 250px;
     width: 200px;
     z-index: 1;
     margin-top: 40px;
+    border: 1.5px solid black;
 }
 .img-2{
     position: absolute;
     width: 200px;
-   
+    border: 1.5px solid black;
     margin-top: 250px;
     z-index: 6;
 }
 .img-3{
     position: absolute;
     width: 200px;
-   
+    border: 1.5px solid black;
     z-index: 2;
     margin-left: 60px;
 }
@@ -190,6 +221,176 @@ a{
     margin-left: 180px;
     position: absolute;
     z-index: 4;
+    border: 1.5px solid black;
+}    
+.skill{
+    width: 100%;
+    height: 650px;
+    justify-content: center;
+    display: flex;
+}
+.cons{
+    width: 50%;
+    height: 600px;
+}
+.cons-tx{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+.my-s{
+    font-size: 3rem;
+    margin: 10px 0px;
+}
+.world{
+    font-size: 1.4rem;
+    margin-top: 25px;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 420px;
+    column-gap: 10px;
+    row-gap: 5px;
+   
+}
+.one{
+    width: 290px;
+    height: 370px;
+    margin: 10px;
+    border: 1px solid rgb(190, 176, 176);
+    box-shadow: 1px 1px 10px gray;
+}
+.two{
+    width: 290px;
+    height: 370px;
+    margin: 10px;
+    border: 1px solid rgb(190, 176, 176);
+    box-shadow: 1px 1px 10px gray;
+}
+.three{
+    width: 290px;
+    height: 370px;
+    margin: 10px;
+    border: 1px solid rgb(190, 176, 176);
+    box-shadow: 1px 1px 10px gray;
+}
+.hyper{
+    width: 100%;
+    padding: 0px;
+    border-bottom: 1px solid rgb(190, 176, 176);
+}
+.ht{
+    margin-left: 100px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+.ht-1{
+    margin-left: 110px;
+    margin-top: 10px;
+    opacity: 0.8;
+   
+}
+.ht-2{
+    margin-left: 80px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+.scading{
+    width: 100%;
+    border-bottom: 1px solid rgb(190, 176, 176);
+}
+.js{
+    width: 100%;
+    border-bottom: 1px solid rgb(190, 176, 176) ;
+}
+.bada{
+    width: 260px;
+    margin-left: 20px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+.btn-6{
+    width: 100px;
+    height: 35px;
+    margin-left: 95px;
+    margin-top: 20px;
+    background-color: rgb(10, 167, 245);
+    border: 0;
+    padding: 10px;
+    color: white;
+}
+.pre-work{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+.works{
+    width: 50%;
+    height: 550px;
+    justify-content: center;
+    
+}
+.work-text{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+}
+.p-t{
+    font-size: 3rem;
+}
+.p-t-t{
+    margin-top: 25px;
+    font-size: 1.2rem;
+    opacity: 0.8;
 }
 
+.work-img{
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+    
+}
+.dis{
+    width: 150px;
+    height: 300px;
+    margin-left: 125px;
+    transform: rotate(-55deg);
+    border: 1px solid black;
+    box-shadow:1px 1px 10px gray ;
+}
+.end{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.foot{
+    width: 50%;
+    height: 200px;
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+}
+.foot-n{
+    font-size: 1rem;
+    color: aliceblue;
+    height:20%;
+    border-bottom: 1px solid rgb(153, 138, 138);
+    margin-top: 70px;
+}
+.ar{
+    color: aliceblue;
+    height:20%;
+    border-bottom: 1px solid rgb(153, 138, 138);
+    margin-top: 70px;
+}
+.no{
+    color: aliceblue;
+    font-size: 1.2rem;
+    height:20%;
+    border-bottom: 1px solid rgb(153, 138, 138);
+    margin-top: 70px;
+}
 
